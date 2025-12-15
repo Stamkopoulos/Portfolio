@@ -1,7 +1,11 @@
 import React from "react";
 
 function About() {
-  return <div>About</div>;
+  return (
+    <section id="about">
+      <div>About</div>
+    </section>
+  );
 }
 
 export default About;
