@@ -42,7 +42,8 @@ function NavbarBlock({ navigationData }) {
         </div>
 
         <div className="flex items-center gap-6">
-          <ModeToggle />
+          {/* <ModeToggle /> */}
+
           <DropdownMenu>
             <DropdownMenuTrigger className="md:hidden" asChild>
               <Button variant="outline" size="icon">
@@ -54,7 +55,7 @@ function NavbarBlock({ navigationData }) {
             <DropdownMenuContent align="end" className="w-56">
               <DropdownMenuGroup>
                 {navigationData.map((item, index) => (
-                  <DropdownMenuItem key={index}>
+                  <DropdownMenuItem key={index} asChild>
                     <a href={item.href}>{item.title}</a>
                   </DropdownMenuItem>
                 ))}

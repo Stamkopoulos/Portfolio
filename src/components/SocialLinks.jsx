@@ -58,11 +58,11 @@ function SocialLinks() {
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
-            className={`flex justify-between items-center w-40 h-14 px-4 my-2 ml-[-100px] rounded-md duration-300 hover:ml-[-10px] 
+            className={`flex justify-between  items-center w-40 h-14 px-4 my-2 ml-[-100px] rounded-md duration-300 hover:ml-[-10px] 
               ${style} 
               ${
                 theme === "dark"
-                  ? "bg-gray-800 text-white hover:bg-gray-700"
+                  ? "bg-gray-900 text-white hover:bg-gray-800"
                   : "bg-gray-100 text-gray-900 hover:bg-gray-200"
               }`}
           >

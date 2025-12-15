@@ -1,0 +1,29 @@
+<!-- public/logo.svg -->
+<svg
+  width="328"
+  height="328"
+  viewBox="0 0 328 328"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Circle -->
+  <circle
+    cx="164"
+    cy="164"
+    r="164"
+    fill="white"
+  />
+
+  <!-- Letters SG -->
+  <text
+    x="164"
+    y="187"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'DM Serif Display', serif"
+    font-size="250"
+    fill="black"
+  >
+    SG
+  </text>
+</svg>

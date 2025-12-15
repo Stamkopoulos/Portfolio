@@ -150,3 +150,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@theme {
+  --animate-fadein: fadein 1.5s ease-out forwards;
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

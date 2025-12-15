@@ -11,7 +11,7 @@ function Hero() {
         <div className="space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-gray-100">
             Hi, I’m{" "}
-            <span className="bg-gradient-to-r from-[#3a4a75] via-[#4b3f9f] to-[#5b4cc3] bg-clip-text text-transparent animate-text">
+            <span className="bg-gradient-to-r from-[#3a4a75] via-[#4b3f9f] to-[#5b4cc3] bg-clip-text text-transparent">
               Giannis!
             </span>
           </h1>

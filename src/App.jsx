@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
 import Aurora from "./components/Aurora";
+import ScrollFadeIn from "./components/ScrollFadeIn";
 
 function AppContent() {
   const { theme } = useTheme();
@@ -36,11 +37,26 @@ function AppContent() {
       {/* Main content */}
       <main className="space-y-32 relative z-10">
         <SocialLinks />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+
+        <ScrollFadeIn>
+          <Hero />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <About />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <Skills />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <Projects />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <Contact />
+        </ScrollFadeIn>
       </main>
 
       {/* Footer */}
