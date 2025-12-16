@@ -14,10 +14,12 @@ function AppContent() {
   const { theme } = useTheme();
 
   // Aurora colors based on theme
-  const auroraColors =
-    theme === "dark"
-      ? ["#112545", "#231453", "#271196"] // dark mode colors
-      : ["#a1c4fd", "#c2e9fb", "#fef9c3"]; // light mode colors
+  // const auroraColors =
+  //   theme === "dark"
+  //     ? ["#112545", "#231453", "#271196"] // dark mode colors
+  //     : ["#a1c4fd", "#c2e9fb", "#fef9c3"]; // light mode colors
+
+  const auroraColors = ["#112545", "#231453", "#271196"];
 
   return (
     <>
