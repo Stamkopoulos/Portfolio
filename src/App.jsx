@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import SocialLinks from "./components/SocialLinks";
 import Aurora from "./components/Aurora";
 import ScrollFadeIn from "./components/ScrollFadeIn";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function AppContent() {
   const { theme } = useTheme();
@@ -63,6 +65,9 @@ function AppContent() {
 
       {/* Footer */}
       <Footer />
+
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }

@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[70vh] flex items-center justify-center scroll-mt-24"
+      className="min-h-[70vh] flex items-center justify-center scroll-mt-24 lg:pl-4 "
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* LEFT — TEXT */}
